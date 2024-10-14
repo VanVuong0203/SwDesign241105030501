@@ -14,5 +14,3 @@ Kết quả của Lab 0 với biểu đồ UML:
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/F8un3i8m40JxUyMMpXUIWfIKaH0FiC8vjd1yaSy8vMqKF8ala3Y8RgNTMStdzUwrs5mUSwGQgBqgPqIP525rr5wyFE5bviLEt55mC7KnnZ3U5P8mP74Xygb1yPnWLjQ6W8FybHWgpL4P9idH5xlk_Fb_pkaMtEOX2_LRtgM-0000__y30000).
 
-Tài liệu tham khảo:
-- [Markdown Guide](https://www.markdownguide.org)
