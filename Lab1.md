@@ -31,11 +31,11 @@ Kiến trúc được đề xuất cho hệ thống Payroll là kiến trúc **L
  - PaymentController: Quản lý lựa chọn phương thức thanh toán.
  - PaymentMethod: Chứa thông tin về phương thức thanh toán, bao gồm "Pick Up", "Mail", và "Direct Deposit".
  - BankInfo: Nếu chọn phương thức "Direct Deposit", cần thông tin về ngân hàng và tài khoản.
-### Biểu đồ tuần tự cho ca sử dụng Payment
-![Sequence Diagram](https://www.planttext.com/api/plantuml/png/d591RW8n3BplAtm42NZ07X2qzC01TTMA1qIxXaRhn6bYMktREF0alj14D1NjWgYu9V7CUEp9SN-O1L5UTeOALGjxU3AEk4CiyW76KwXKPz3A8rlnJ8I-X5Sah2LNO8NonatH0vwnJv0INl1zX-4QzNI3yUMkbUSFtI0yEz5i0mmgNRUmTYDOAKqZM6YVN2tGST0olEGd2kVHoeWFZbINzUuQ6WOusKxwlHN9dxS2-gBmoq_UpOEoBIpjXhrHoLbath2MD_F3lDOi0L8zJXFpFYUW_L-0QzSemRloY-UDzkPRucOyyxgr_4dOR35JPj5b-grV0000__y30000)
+### Biểu đồ tuần tự cho ca sử dụng Select Payment
+![Sequence Diagram](https://www.planttext.com/api/plantuml/png/h9EnIiD07CRtFCL_hD2-G0OfPb11YvFe96SQUqVJ_yLu9tHsS1079rUZ5B5GhE1YRkXmqlUu9_0Ll6j0WcreGBDS4kxx-7tt_-vBpTeNWgH23cAFX8AdqA7w4KyEcHwZLtg7rYOSaE4WGX5m52cFuoZr8Q16tI8aT3wTPzW3ORzVGhiGf22upj1RKfMizYD1UTU7OpsM49hyMTQnAbJGga2ILcozHWa8_J64i41iTAZ99mZ2v1bR_BnlmhPH4mRdai3fV2hXyuuPTOrD6qiEZRf2w5DkyYUhIerwip3CvBDaOrKc2rCwBXzssCB0fRWfW_pBeKBZKa-WQzJ8NyjAOh5cZmVB5F0xJsb4WkftXyKGi6Ut0DKFsBCkDQALXbFbif9bYs1_5y-u3tjkKex_jSeYmcwjrWMs40cWwuNuU--ET1OMPkWI_ZZNAKkbjcspkBjfdsy0003__mC0)
 
-### Biểu đồ lớp phân tích Payment
-![Class Diagram](https://www.planttext.com/api/plantuml/png/X95B2i8m48RtEKMMkkWLf2WkN5W4Jp1DHYtcHJ8HYdWo5nx9AzZMLlf0Ehly-Vduc7a_NsaWy1IrOa9127ohdR8b8hypNar0XO8EK6eqj4UwMBbODZ_EsriXSGtckZCdMwKFrZ86zHPq95-OCwVIOVEEJWBX63n6RAmXRvL2F-ip0-myXpfvbMQWiP-143OQogBEqTU0tqgIP3KLOrFLNkyhygVJER4KZQnFy0400F__0m00)
+### Biểu đồ lớp phân tích Select Payment
+![Class Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niO9Vnk55UV5XcOTNvIbKSoa0GNB6mzszUG4PnpOSMvYN7WBahKmEoKZComZ9FxmmJqCJegWqBztvuQwb1I4PXxS0LMNc-QK33V8ul20l7QYabWjgF2vZe7O5bnHbvgKhvEG_tBKm4sBmmrrh2_moW6G97YV0pNTwk7lcaGcP3tStbdfd0AdcF0mxYFCFQTPYyJMgZqg0uOcGGvOfVhXxOiZX1PdU6K1FByu3cOaS1xgwTdWznONNno3TkDnFM2SMNt4vfEQbW58B5nS0003__mC0)
 
 ## 4. Phân tích ca sử dụng Maintain Timecard
 
@@ -46,10 +46,10 @@ Kiến trúc được đề xuất cho hệ thống Payroll là kiến trúc **L
  - ProjectManagementDatabase: Cơ sở dữ liệu dự án quản lý các số dự án để tính công.
 
 ### Biểu đồ tuần tự cho ca sử dụng Maintain Timecard
-![Sequence Diagram](https://www.planttext.com/api/plantuml/png/Z9DDJiCm48NtFiLSe1V80XMbaM3H2b4ewqay55F_XB6JgcTZmP6u0awWIQ29miwnzTuyVy_vVFzO-e0SAgC55i4nPARKxaGapWjONC63CbGWozJPm4vhuWJkwQqY7xepWJh0nlNVC28RcYMGCc4WsD2nLv6LObntn-wLYh16YtioPCCA0-RegSaIM55DaBuWxwDZPN9YBoObi9YuLLJKIbuOZIMA3cT62QoKBpMUEaz0A_-Qp17DR8Y-DwvY3q-E3pH5eYVuMCg6O4TlRiIsoeqQT3RdlqEjsWbjghRYMritcpyxuoN_GfCnntUr9kzZ2L7mFmoxmP3fDz4dtM9Db_UQx3ckdnMRRo3UAsVdExuk3jOTDSdOwK2tZF6Q_qTy0G00__y30000)
+![Sequence Diagram](https://www.planttext.com/api/plantuml/png/h5H1IiD05DtFAVu5Ue4kf5YXGaD16aHN4gCaWycqj9c2o-B2XHjTYKYnjOXGA5fqbK5SZFGUSmAlu9-fO6W2dHOtap3pyzxxx_t9j_YiT1Ela_0u8fwVj3hG2EKZEzgdSi98vXrAMx2jnDtNDLMYp-iXFYwO6wfKu286j4OzLeP3EU7Wg_IPGwBFz8g74E0fyQ84wg5yPm7uygsW05PJQ1qvLbUberOU3s8bxYavPIV42hSw7pMLUDXHuiN1cak-nrKwPexymAsPx2EJezAdS-WgSGEn74Cxb5EoyZCesPbNvTePP6WlCLYeHuPCMcNODMN6ZQi2PtfokCInVjODt9Z-IWsmP02H7CRGqnxuTexdBJ2GJ2Cd1GEoliYQ4bDQWBIPl0CvyWtCpC_qRGQx-MV3sMB6iMpSXWZTi1livGZT1SonnDb6b5kACF-HKaQNzTN8mJhprw8hNjIKXKZZgqcTGQ0JssJayo0Lx4__sGZv0G00__y30000)
 
 ### Biểu đồ lớp phân tích Maintain Timecard
-![Class Diagram](https://www.planttext.com/api/plantuml/png/T54xZi8m5Enz2fUxHQwmGcAHQ41Rh4Jzaep0u0yyFqTQhJWP1KVY2ZXH20Y2AsiyRsRU-78wJw8GIt9MLPPYr3Etj-4FqFzAvnDJwOpy6eUAkFxux41u0Sz3ufY1e-edRwHkij3V9D2TU7kxG_3r01WlUjFgh0BlK7VY3LbJPqBl5Qd1cCiqUE5WBRXFoZWanEUeQTzgFO4lImtgFnosg6H1djPmUSySbKgA64o43HfCDyHhB9ChSIjXAAuelaPIgf7WZyntxsyJgKbkilqtTGK00F__0m00)
+![Class Diagram](https://www.planttext.com/api/plantuml/png/d5B1IiCm6BxdANBKGrz1XXDsi1P5yIeroXhimbWJi8Y7uS7hUlGWRXOH1cNkcY0x_6NlyJ-1hs1IfnIf5CmXWU___k__lYGVPjL9P3YIQX0J5eT9GeC8diNPAOUve3U4sjL7K_2J2BMnctdaFHwAhUsg92nQ37lSmXQv9HkDN-HAnwD17wOfFKUzaBJCKB-g6do5UYMfZ42p2kL2qWHDLccN4yXzc0wgcTSmOqvxoJOculMRga_VHVDGJcpVMEr7zhWJJNueJM6kkiv6SpRceWKke6mc_74lFpwwwzancgSzD0lVshXNHmfrBdnujz0Injy-OjGlgMLc1v0VHb1yQTJVmVDssbEHzjnEvtzThLb8vr9Sk5z4o2S0003__mC0)
 
 ## 5. Hợp nhất kết quả phân tích
 
