@@ -88,4 +88,4 @@ Chức năng tính lương (Run Payroll) cho phép hệ thống tự động tí
   
 ## Biểu đồ hoạt động (Activity Diagram)
 
-![Diagram]()
+![Diagram](https://www.planttext.com/api/plantuml/png/T591Rjim4Bph5NkCls0T6iI79d21Ed0-mD2qI5XQkHGLHESUSyeBQiV88MaD671E8W8V6FWVV46_qALaEqRQNaHXEJCxiylVTdDQ6APDcQLHynDr-sx99SZSrtC3rzx-K32i2YCowAKvdyI4KDv-py1e1hTKbkub0sGLSBU6gVJrGW4cRbQ1SKkKa6vNspacSQJ6S7A-1wTkzY_KfmuOAH1EUcxTYG2wNtpzI1XgWWaOXO3IFI3SAFUCOBpz2LSg4vpf4ToGvA3KNB92VDKZeUCWSDN8czpDyTrAg5F07DxklRrNOBOhRnVKOS0gBaM8IP2Ze5FPKic9jq-S3hPN3T0GRV1_o27Lq3tn48l4FtkxLAIhVBqfzyw2dtg3CD0AZT0NuJDcNCGjvm8_4iA5I0j10vDbHNOH9c5t2zor-Nj-IPYVTBEMV72IA9R3oDixslxEnHd3IRlx7VAz0BT4eYM-7lCQCpXIuwYrr6-wDcliaw09DceEtqeofDql948BBqm-ZQBkvU62tXyPfFtMZoQEJWaLNkWV0000__y30000)
